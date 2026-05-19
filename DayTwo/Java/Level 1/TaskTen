@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class AgeTwo{
+
+    public static void main(String[] args){
+    
+    Scanner input = new Scanner(System.in);
+    
+    System.out.print("Enter first Number: ");
+    
+    int firstNumber = input.nextInt();
+    
+    System.out.print("Enter Second Number: ");
+    
+    int secondNumber = input.nextInt();
+    
+    System.out.print("Enter Third Number: ");
+    
+    int thirdNumber = input.nextInt();
+    
+    int average = firstNumber + secondNumber + thirdNumber / 3;
+    
+    System.out.println("product is: " + (firstNumber + secondNumber + thirdNumber / 3)); 
+   }
+   }
+   
+   
+   
