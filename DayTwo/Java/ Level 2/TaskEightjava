@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class TaskEight{
+
+    public static void main(String[] args){
+    
+    Scanner input = new Scanner(System.in);
+    
+     for(int count = 1; count <= 7; count++){
+     
+     System.out.print("Enter  day number: ");
+     
+     int dayNumber = input.nextInt();
+     
+     System.out.print("dayNumber");
+     
+     
+     
+     }
+        }
+       
+       }
+    
+
