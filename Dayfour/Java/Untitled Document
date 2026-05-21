@@ -1,0 +1,28 @@
+public class subtraction{
+
+    public static int subtractionOFTwoNumbers(int[] array){
+    
+        int[] array = {8,6,12,4,-2};
+        
+        int substaction = array[0];
+        
+       
+        for(int count = 1; count < array.length; count++){
+        
+            subtraction = subtraction - array[count];
+            
+            
+        }
+       return subtract; 
+       
+    }
+    
+    public static void main(String[] args){
+    
+    int[] number = {8, 2};
+    
+    int result = subtractionOFTwoNumbers(number);
+    
+    System.out.println("subtraction of number is: " + result);
+    }
+}
